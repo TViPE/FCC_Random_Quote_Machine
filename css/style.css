@@ -25,9 +25,39 @@
 }
 
 .container {
-	margin: 30% auto;
+	margin: 30% auto 30% auto;
 }
 
 .jumbotron {
 	background-color: #fff !important;
+}
+
+.quote-box {
+	margin: 8% auto auto auto;
+}
+
+.quote-text {
+	font-weight: 500;
+	font-size: 1.75em;
+}
+
+.quote-text i {
+	font-size: 1.0em;
+	margin-right: 0.4em;
+}
+
+.quote-author {
+	padding-top: 20px;
+	font-size: 1em;
+}
+
+#facebook-quote {
+	height:30px;
+	width:30px;
+	padding: 0px;
+	padding-top: 8px;
+	color:#fff;
+	background-color: #333;
+	border: 1px solid black;
+	text-align: center;
 }
