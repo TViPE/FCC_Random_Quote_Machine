@@ -5,7 +5,9 @@
   list-style: none;
   vertical-align: baseline;
 }
-
+body {
+	height: 100vh;
+}
 .container-fluid {
   background-color: #333;
   color: #333;
@@ -25,7 +27,7 @@
 }
 
 .container {
-	margin: 30% auto 30% auto;
+	margin: auto auto auto auto;
 }
 
 .jumbotron {
